@@ -1,0 +1,48 @@
+.wrap{
+display: flex;
+justify-content: space-between;
+}
+
+.wraper{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.wraper a{
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #323A30;;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif; ;
+  
+}
+a.active,a:active,a:hover{
+    text-decoration: underline;
+}
+.logo{
+    font-family: 'Dynalight', cursive;
+    padding-left: 15px;
+    font-size: 30px;
+   
+}
+.logo h2{
+    margin-top: 14px;
+}
+@media (max-width:1024px){
+
+.logo{
+   font-size: 18px;
+   padding-left: 3px;
+   
+}
+.wraper{
+    margin-right: 10px;
+}
+    .wraper a{
+        font-size: 10px;
+        padding: 5px;
+      
+    }
+}

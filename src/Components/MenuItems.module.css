@@ -1,0 +1,50 @@
+.wrapItems{
+    display: flex;      
+
+    }
+.item{
+        background-color: rgba(244, 189, 137, 0.1);
+        box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        margin: 20px;
+        padding: 30px;
+    width: 100%;
+    
+    }
+    .item h3{
+        font-family: 'Playball', cursive;
+    font-size: 20px;
+    }
+    .prices{
+        display: flex;
+        justify-content: space-between;
+    }
+    .description{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        width: 80%;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+    } 
+    @media (max-width:968px){
+ .item{
+    width: 95%;
+    height: 100%;
+padding: 5px;
+margin-left: 15px;
+ }
+ .item  h3{
+    font-size: 16px;
+}
+ .flex{
+   display: block;
+   text-align: right
+} 
+.description{
+    font-size: 12px;
+    text-align: left;
+}
+        }
+    

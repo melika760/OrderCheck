@@ -1,0 +1,33 @@
+.form{
+    margin: 50px;
+    padding: 10px;
+    /* display: flex; */
+}
+
+.form label{
+  display: block;
+margin-top: 10px;
+color: grey;
+}
+
+.form input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(244, 171, 163);
+    border-radius: 4px;
+}
+.form button{
+    width: 30%;
+    padding: 6px;
+    border: 1px solid salmon;
+    background-color: salmon;
+    color: white;
+    border-radius: 4px;
+    margin-top: 30px;
+    float: right;
+    cursor: pointer;
+}
+.invalid{
+    color: red;
+    font-size: 13px;
+}

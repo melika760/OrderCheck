@@ -1,0 +1,66 @@
+.link ,a.link:hover{
+    text-decoration: none;
+}
+.headerimg{
+    width: 100%;
+    background-color: black;
+}
+.headerimg img{
+    width: 100%;
+    height: 836px;
+    opacity: 0.3;
+}
+.content{
+    position: absolute;
+    width: 683px;
+    color: white;
+    bottom: 0;
+    top: 327px;
+    left: 80px;
+    line-height: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.content h3{
+    font-family: 'Playball', cursive;
+    font-size: 40px;
+font-style: normal;
+font-weight: 400;
+}
+
+.content p{
+    width: 70%;
+    font-family: Roboto;
+    
+}
+.btn{
+    margin-top: 34px;
+    display: flex;
+   justify-content: flex-start;
+}
+.arrow{
+    width: 20px;
+height: 20px;
+flex-shrink: 0;
+}
+@media (max-width:968px){
+    .content{
+        width: 100%;
+        left: 0px;
+        margin-left: 5px;
+        margin-top: 30px;
+        top: 40px;
+    }
+    .content h3{
+        font-size: 28px;
+    }
+    .content p{
+        font-size: 16px;
+    }
+  
+    .headerimg img{
+       width: 100%;
+       height: 600px;
+    
+    }
+}

@@ -1,0 +1,24 @@
+.wraper{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width:968px){
+    .wraper{
+        padding: 10px;
+        margin: 0px;
+        width: 100%;
+        left: 0px;
+        right: 0px;
+     display: block;
+       
+    }
+    .description p{
+        font-size: 14px;
+    
+    }
+    .description h3{
+        font-size: 20px;
+    
+    }
+}

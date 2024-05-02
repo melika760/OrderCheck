@@ -1,0 +1,133 @@
+a{
+    text-decoration: none;
+}
+a.col:hover{
+    text-decoration: none;
+}
+.btn{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+   border: none;
+    background-color: #F0E0D9;
+    cursor: pointer;
+    color: rgb(244, 174, 108);;
+}
+.all{
+    margin-top: 350px;
+}
+.wraper{
+    display: flex;
+    justify-content:flex-start;
+    padding: 20px;
+}
+.header{
+    text-align: center;
+    margin-top: 140px;
+    font-family: 'Playball', cursive;
+  
+}
+a.col:active,a.col:hover,a.col::selection {
+    padding: 55px;
+    height: 75px;
+       text-align: center;
+       background-color: rgba(244, 189, 137, 0.8);
+       border-radius: 10px;
+margin: 0 auto;
+       cursor: pointer;
+      
+}
+.active img{
+    width: 50px;
+    height: 50px;
+}
+.active p{
+    color: white;
+}
+.col{
+ padding: 35px;
+ height: 75px;
+    text-align: center;
+    background-color: rgb(194, 187, 187,0.8);
+    border-radius: 10px;
+    margin: 10.5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+    
+}
+.col img{
+    width: 50px;
+    height: 50px;
+}
+.col p{
+    color:white
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap > div {
+    width: 50%;
+    box-sizing: border-box; 
+  }
+.title{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Playball', cursive;
+   font-weight: bold;
+   font-size: 36px;
+}
+.extra{
+    text-align: center;
+}
+
+@media(max-width:1024px){
+.wraper{
+   display:inline-block;
+   padding: 5px;
+   margin: 15px auto;
+  text-align: center;
+  justify-content: space-between;
+  
+ 
+}
+.col{
+    padding: 20px;
+    margin: 5px;
+    align-items: center;
+    height: 70px;
+    display: inline-flex;
+  
+}
+
+.col p{
+    font-size: 12px;
+}
+a.col:active,a.col:hover,a.col::selection{
+    padding: 35px;
+    height: 75px;
+       text-align: center;
+       background-color: rgba(244, 189, 137, 0.8);
+       border-radius: 10px;
+margin: 0 auto;
+       cursor: pointer;
+      
+}
+.mobile{
+    margin:0px;
+    text-align: center;
+  
+}
+
+.wrap{
+    display: block;
+}
+.wrap > div {
+    width: 100%;
+    box-sizing: border-box; 
+  }
+
+}
