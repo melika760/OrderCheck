@@ -1,4 +1,4 @@
-import { Route,Switch } from "react-router-dom";
+import { Route,Routes } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Nav from "./Components/Nav";
 import React,{useState,Suspense}from "react";
@@ -20,11 +20,11 @@ function App() {
 <Nav onShow={opencard}/>
 {ShowCard && <Card onClose={CloseCard}/>}
 <Suspense fallback={<div className="centered"><LoadingSpinner/></div>}>
-<Switch>
-  <Route path='/' exact><Homepage/></Route>
-  <Route path="/Menu" exact><Menupage/></Route>
-  <Route path="/Contact" exact><ContactUs/></Route>
-</Switch>
+<Routes>
+  <Route path='/' element={<Homepage/>}/>
+  <Route path="/Menu" element={<Menupage/>}/>
+  <Route path="/Contact" element={<ContactUs/>}/>
+</Routes>
 </Suspense>
 </CartProvider>
 
