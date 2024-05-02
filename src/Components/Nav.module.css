@@ -3,11 +3,6 @@ display: flex;
 justify-content: space-between;
 }
 
-.wraper{
-    display:flex;
-    justify-content: flex-end;
-    
-}
 .wraper a{
     margin-top: 20px;
     padding: 20px;
@@ -33,18 +28,25 @@ justify-content: space-between;
     margin-top: 14px;
 }
 @media (max-width:1024px){
+    .wrap{
+        overflow-x: hidden;
+    }
 
 .logo{
    font-size: 18px;
-   padding-left: 3px;
+   padding-left: 0px;
    
 }
 .wraper{
-    margin-right: 10px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-around;
 }
     .wraper a{
         font-size: 10px;
         padding: 5px;
+        margin-top: 20px;
+        margin-bottom: 0px;
       
     }
 }

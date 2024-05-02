@@ -59,7 +59,7 @@ setSubmit(true);
       </div>
     return( <Modals onClose={props.onClose}>
 {!showForm && !submit && OrderShow}
-{showForm && !submit && <Order checkout={CheckoutHandler}/>}
+{showForm && !submit && <Order checkout={CheckoutHandler} onclose={props.onClose}/>}
 {submit && <p className={classes.submit}>Your order is submitted!</p>}
         </Modals>
     )

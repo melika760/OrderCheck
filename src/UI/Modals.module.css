@@ -22,7 +22,8 @@
 }
 @media (max-width:1024px){
     .overley{
-        left: 70px;
+        left: 12px;
+        width: 80%;
 
     }
 }

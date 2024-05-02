@@ -55,7 +55,8 @@ return(
          Postcode: <input type="text" value={enteredPostalcode} onChange={PostalcodeChange} onBlur={PostalcodeBlur} id="PostCode"/>
          {PostalcodeHasError && <p className={Styles.invalid}>Please Enter valid postCode.</p>}
         </label>
-    <button>Next</button>
+    <button className={Styles.next}>Next</button>
+    <button className={Styles.close} onClick={props.onclose}>Close</button>
     </form>
 )
 }

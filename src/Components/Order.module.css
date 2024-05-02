@@ -16,7 +16,7 @@ color: grey;
     border: 1px solid rgb(244, 171, 163);
     border-radius: 4px;
 }
-.form button{
+.form .next{
     width: 30%;
     padding: 6px;
     border: 1px solid salmon;
@@ -27,7 +27,31 @@ color: grey;
     float: right;
     cursor: pointer;
 }
+.form .close{
+    width: 30%;
+    padding: 6px;
+    border: 1px solid salmon;
+    background-color: white;
+    color: salmon;
+    border-radius: 4px;
+    margin-top: 30px;
+    float: right;
+    cursor: pointer;
+}
 .invalid{
     color: red;
     font-size: 13px;
+}
+@media (max-width:1024px){
+    .form{
+        margin: 0px auto;
+        padding: 5px;
+    }
+.form .close{
+        width: 45%;
+        margin-right: 5px;
+    }
+ .form .next{
+        width: 45%;
+    }
 }
