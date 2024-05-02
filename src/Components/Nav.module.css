@@ -18,9 +18,11 @@ justify-content: space-between;
     font-family: 'Roboto', sans-serif; ;
   
 }
-a.active,a:active,a:hover{
+.wraper .active{
     text-decoration: underline;
+    color: salmon;
 }
+
 .logo{
     font-family: 'Dynalight', cursive;
     padding-left: 15px;

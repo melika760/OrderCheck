@@ -5,9 +5,15 @@ export default function Nav(props){
 return(<div className={styles.wrap}>
     <div className={styles.logo}><h2>Dominiques</h2></div>
     <div className={styles.wraper}>
-    <NavLink to="/"exact activeClassName={styles.active}>Home</NavLink>
-    <NavLink to="/Menu"activeClassName={styles.active}>Menu</NavLink>
-    <NavLink to="/Contact"activeClassName={styles.active}>Contact</NavLink>
+    <NavLink to="/"exact  className={({ isActive }) =>
+     isActive ? styles.active : ""
+  } >Home</NavLink>
+    <NavLink to="/Menu"  className={({ isActive }) =>
+     isActive ? styles.active : ""
+  }>Menu</NavLink>
+    <NavLink to="/Contact"  className={({ isActive }) =>
+     isActive ? styles.active : ""
+  }>Contact</NavLink>
    <HeaderButton onOpen={props.onShow}/>
     </div>
 </div>)
