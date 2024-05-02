@@ -31,14 +31,10 @@ const response=await fetch("https://dominique-5aac4-default-rtdb.firebaseio.com/
 if(!response.ok){
   throw new Error("Something went wrong please try later.")
 }
-try{
-  setSubmit(true);
-  ctx.clearCart();
-}
-catch(err){
-const error=err.message
-;
-}
+setSubmit(true);
+ ctx.clearCart();
+
+
  }
     const cartItems = (
         <ul className={classes['cart-items']}>
