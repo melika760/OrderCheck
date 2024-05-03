@@ -5,26 +5,25 @@
     justify-content: space-around;
     padding: 50px;
 }
-.map{
-    display: flex;
-    background-color: black;
-}
+
 @media (max-width:968px){
     .wraper{
-        padding: 10px;
+       padding: 0.2px;
         margin: 0px;
         width: 100%;
         left: 0px;
         right: 0px;
      display: block;
+     overflow-x: hidden;
        
     }
     .description p{
         font-size: 12px;
-    
+   margin-left: 5px;
     }
     .description h3{
         font-size: 16px;
+        margin-left: 5px;
     
     }
 }
