@@ -13,9 +13,17 @@ import {HashLink as Link } from "react-router-hash-link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import{faArrowUp} from "@fortawesome/free-solid-svg-icons";
 import MenuItems from "./MenuItems";
-import { dummydata } from "./MenuData";
+import { useEffect, useState } from "react";
 export default function Menue(){
-    const groupedItems = dummydata.reduce((acc, item) => {
+  const[items,setItem]=useState([]);
+  useEffect(()=>{
+    const data=localStorage.getItem("menuData")
+   if(data){
+    setItem(JSON.parse(data))
+   }
+  },[])
+
+    const groupedItems = items.reduce((acc, item) => {
         if (!acc[item.Category]) {
           acc[item.Category] = [];
         }

@@ -89,6 +89,7 @@ a.col:active,a.col:hover,a.col::selection {
     align-items: center;
     height: 70px;
     display: inline-flex;
+    font-size: 11px;
   
 }
 
