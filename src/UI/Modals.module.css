@@ -3,6 +3,8 @@
     background-color: black;
     top: 0;
     left: 0;
+    right:0;
+    bottom: 0;
     width: 100%;
     z-index: 10;
     height: 100vh;
@@ -10,8 +12,9 @@
 }
 .overley{
     position: fixed;
- left: 40vh;
+ left: 50vh;
  top:3vh;
+
     width: 50%;
     background-color: white;
     padding: 1rem;
@@ -22,7 +25,7 @@
 }
 @media (max-width:1024px){
     .overley{
-        left: 12px;
+        left: 3vh;
         width: 80%;
 
     }

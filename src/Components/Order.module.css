@@ -1,7 +1,6 @@
 .form{
     margin: 50px;
     padding: 10px;
-    /* display: flex; */
 }
 
 .form label{
@@ -24,6 +23,7 @@ color: grey;
     color: white;
     border-radius: 4px;
     margin-top: 30px;
+    margin-left: 10px;
     float: right;
     cursor: pointer;
 }

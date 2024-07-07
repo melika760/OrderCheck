@@ -3,7 +3,7 @@ import landing from "../img/Landing Image.jpg"
 import Button from "../UI/Button";
 import { Link } from "react-router-dom";
 export default function Header(){
-    return(<div className={styles.wrap}>
+    return(<header className={styles.wrap}>
       <div className={styles.headerimg}>
         <img src={landing} alt="Food"/>
       </div>
@@ -17,5 +17,5 @@ export default function Header(){
   <path d="M3.5 12H20.33" stroke="#323A30" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
 </svg></Button></Link> 
       </div>
-        </div>)
+        </header>)
 }

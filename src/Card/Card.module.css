@@ -48,6 +48,14 @@
     color: salmon;
     text-align: center;
   }
+  .close{
+    background-color: salmon;
+    color: white;
+    border-radius: 10px;
+    width: 20%;
+  display: block;
+  margin: 0 auto;
+  }
   @media (max-width:1024px){
     .total{
       display: flex;

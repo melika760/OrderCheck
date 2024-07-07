@@ -6,7 +6,7 @@ import {faClock} from "@fortawesome/free-solid-svg-icons";
 
 import { Fragment } from "react";
 export default function Footer(){
-    return( <Fragment> 
+    return( <footer> 
         
         <div className={styles.wraper} >
         <div className={styles.description}>
@@ -27,4 +27,4 @@ export default function Footer(){
         <div>
       
         </div>
-                </Fragment>)}
+                </footer>)}

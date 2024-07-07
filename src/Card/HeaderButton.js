@@ -11,9 +11,9 @@ const HeaderButton =(props)=>{
    
 return(
     <button type="button" className={Styles.WrapCard} onClick={props.onOpen}>
-    <span><FontAwesomeIcon icon={faCartShopping} color='white' size='lg'/></span>
-    <span> Your Card</span>
+    <span><FontAwesomeIcon icon={faCartShopping} color='salmon' size='lg'/></span>
     <span className={Styles.badge}>{Number}</span>
+    
     </button>
 )
 }

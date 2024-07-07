@@ -1,8 +1,9 @@
 .WrapCard{
     margin-top: 25px;
     margin-right: 15px;
-  background-color: salmon;
-border: 1px solid salmon;
+  background-color: #F0E0D9;
+border: 1px solid #F0E0D9;
+color: salmon;
 height: 40%;
   padding: 8px;
   border-radius: 4px;
@@ -10,7 +11,7 @@ height: 40%;
 }
 .badge{
     padding: 5px;
-  color: white;
+  color: salmon;
     margin: 5px;
 }
 @media (max-width:1024px){
@@ -18,9 +19,12 @@ height: 40%;
     width: 44%;
     font-size:7.5px;
     margin-top: 15px;
-    margin-right: 0px;
+    margin-right: 5px;
   }
   .badge{
     padding: 0;
   }
+  /* .your{
+    display: none;
+  } */
 }

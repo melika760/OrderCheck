@@ -4,6 +4,7 @@ import { useContext,useState } from "react";
 import CartContext from "../Store/cart-context";
 import CartItems from "./CartItems";
 import Order from "../Components/Order";
+import Button from "../UI/Button";
 const Card =(props)=>{
   const[showForm,setshowForm]=useState(false);
   const[submit,setSubmit]=useState(false);
@@ -60,7 +61,9 @@ setSubmit(true);
     return( <Modals onClose={props.onClose}>
 {!showForm && !submit && OrderShow}
 {showForm && !submit && <Order checkout={CheckoutHandler} onclose={props.onClose}/>}
-{submit && <p className={classes.submit}>Your order is submitted!</p>}
+{submit && <div><p className={classes.submit}>Your order is submitted!</p>
+<Button onClick={props.onClose}className={classes.close}>Close</Button></div>
+}
         </Modals>
     )
 }
