@@ -52,7 +52,9 @@ a.col:active,a.col:hover,a.col::selection {
     height: 50px;
 }
 .col p{
-    color:white
+    color:white;
+    font-size: 12.5px;
+    font-weight: medium;
 }
 .wrap{
     display: flex;
